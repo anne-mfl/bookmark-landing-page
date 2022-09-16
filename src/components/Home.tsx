@@ -5,7 +5,7 @@ import { Description } from "../atoms/description";
 
 export default function Home() {
   return (
-    <div className="md:flex md:items-center">
+    <div className="md:flex md:items-center mt-4">
       <div className="relative mt-12 after:absolute after:content-[''] after:bg-soft-blue after:h-4/5 after:w-4/5 after:top-0 after:right-0 after:mt-16 after:-z-10 after:rounded-l-full md:hidden">
         <img src={topImage} alt="illustration for bookmark" />
       </div>

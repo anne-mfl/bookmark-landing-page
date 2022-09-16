@@ -20,7 +20,7 @@ export default function Navbar() {
     <>
       <div
         className={`
-        md:py-8 md:px-24
+        md:py-12 md:px-24
         ${
           openMenu
             ? "bg-very-dark-blue opacity-95 h-screen overflow-hidden"
