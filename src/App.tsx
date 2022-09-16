@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+// import { useState } from 'react';
 import './App.css';
+import Download from './components/Download';
+import Faq from './components/Faq';
+import Features from './components/Features';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Newsletter from './components/Newsletter';
+
 
 function App() {
+  // const [openMenu, setOpenMenu] = useState<boolean>(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-rubik">
+      {/* <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu}/> */}
+      <Navbar />
+      <Home />
+      <Features />
+      <Download />
+      <Faq />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
