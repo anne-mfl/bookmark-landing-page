@@ -14,9 +14,9 @@ export default function Footer() {
           className="mx-auto mb-10 md:mb-0 cursor-pointer md:mr-8"
         />
         <ul className="text-white [&>*]:mb-4 [&>*]:block md:[&>*]:mb-0 [&>*]:cursor-pointer tracking-widest md:flex md:[&>*]:mx-8">
-          <a href='/#features' className="hover:text-soft-red">FEATURES</a>
-          <a href='/#download' className="hover:text-soft-red">DOWNLOAD</a>
-          <a href='/#contact' className="hover:text-soft-red">CONTACT</a>
+          <a href='/bookmark-landing-page/#features' className="hover:text-soft-red">FEATURES</a>
+          <a href='/bookmark-landing-page/#download' className="hover:text-soft-red">DOWNLOAD</a>
+          <a href='/bookmark-landing-page/#contact' className="hover:text-soft-red">CONTACT</a>
         </ul>
       </div>
 
